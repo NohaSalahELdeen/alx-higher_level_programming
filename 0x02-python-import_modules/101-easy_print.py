@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-import printstr
+from printstr import p_func
