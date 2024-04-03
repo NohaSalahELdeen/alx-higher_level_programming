@@ -11,6 +11,7 @@ class Square:
         Args:
             size: The size of a square
         """
+
         self.__size = size
 
         if type(size) != int:
