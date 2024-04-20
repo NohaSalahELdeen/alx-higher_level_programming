@@ -1,0 +1,21 @@
+The "1-my_list" module
+======================
+
+Using "MyList"
+-------------------
+This is "1-my_list" module test print of sorted list
+
+>>> MyList = __import__('1-my_list').MyList
+>>> my_list = MyList([0, -5, -8, 1, 7 ,9])
+>>> my_list.print_sorted()
+[-8, -5, 0, 1, 7, 9]
+
+>>> my_list = MyList([0, -5, -8, ""])
+>>> my_list.print_sorted()
+Traceback (most recent call last):
+    ...
+TypeError: '<' not supported between instances of 'str' and 'int'
+
+>>> my_list = MyList([])
+>>> my_list.print_sorted()
+[]
